@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem, 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background: rgb(39, 36, 36) !important;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(172, 129, 129);
+}
+
+#navbarSupportedContent a {
+    color: wheat;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid red;
+}
+
+#navbarSupportedContent button {
+    background: rgb(172, 129, 129);
+    border-radius: 15px;
+}
+
+#navbarSupportedContent button:hover {
+    background-color: azure;
+    color: rgb(172, 129, 129);
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url(./images/background.jpeg);
+    background-size: cover;
+    color: white;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 100px;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px, 1px, 0px, #CCC,
+        0px, 2px, 0px, #CCC,
+        0px, 3px, 0px, #CCC,
+        0px, 4px, 0px, #CCC,
+        0px, 5px, 0px, #CCC,
+        0px, 6px, 0px, #CCC,
+        0px, 7px, 0px, #CCC;
+
+
+}
+
+#home p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#home .input-group {
+    width: 40%;
+    height: 45px;
+}
+
+#home button {
+    background: rgba(172, 129, 129);
+    border-radius: 10px;
+}
+
+#home button:hover {
+    background-color: white;
+    color: rgba(172, 129, 129);
+}
+
+#About {
+    background-color: #443a44;
+    color: white;
+}
+
+#About h1 {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#products {
+    background-color: #797079;
+}
+
+#products h1 {
+    color: rgb(250, 246, 246);
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+#products img {
+    width: 230px;
+    height: 200px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0, 0, 0, .3),
+        inset 4px 4px 10px rgb(249, 248, 248);
+    border-radius: 20px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 60px;
+}
+
+#add {
+    align-items: center !important;
+}
+
+.card a {
+    background-color: rgba(172, 129, 129);
+    border: none;
+    color: black;
+}
+
+.card a:hover {
+    background-color: white;
+    color: rgba(172, 129, 129);
+}
+
+#contact h1 {
+    font-family: sans-serif;
+    text-align: center;
+    align-items: center;
+}
+
+#contact input {
+    border-width: 2px;
+    margin-top: 4px;
+}
+
+#contact textarea {
+    border-width: 2px;
+    margin-top: 4px;
+}
+
+#contact button {
+    background: rgba(172, 129, 129);
+    border-radius: 10px;
+    margin-top: 4px;
+}
+
+#contact button:hover {
+    background-color: white;
+    color: rgba(172, 129, 129);
+}
